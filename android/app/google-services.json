@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93654586116",
+    "project_id": "loginmebel-cd3b1",
+    "storage_bucket": "loginmebel-cd3b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93654586116:android:f66fccae07366f7caf7651",
+        "android_client_info": {
+          "package_name": "com.example.module_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbd2u-KfQeYTH24xNIw1x4h5uyrssNxoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
