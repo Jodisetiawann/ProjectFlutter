@@ -1,0 +1,38 @@
+{
+    "record": [
+        {
+            "name": "Kursi",
+            "description": "kursi bulat",
+            "price": 0,
+            "rating": 5,
+            "imagePath": "https://i.ibb.co/tp5mZQW/chair-1.png"
+        },
+        {
+            "name": "Kursi 2",
+            "description": "kursi simple",
+            "price": 0,
+            "rating": 5,
+            "imagePath": "https://i.ibb.co/0YT1Ntw/chair-2.png"
+        },
+        {
+            "name": "Meja",
+            "description": "Meja kotak",
+            "price": 0,
+            "rating": 5,
+            "imagePath": "https://i.ibb.co/Nyg5Gbc/table-1.png"
+        },
+        {
+            "name": "Meja 2",
+            "description": "Meja simple",
+            "price": 0,
+            "rating": 5,
+            "imagePath": "https://i.ibb.co/KFByFVm/table-2.png"
+        }
+    ],
+    "metadata": {
+        "id": "65421a4254105e766fc9df20",
+        "private": false,
+        "createdAt": "2023-11-01T09:28:34.142Z",
+        "name": "furnitures"
+    }
+}

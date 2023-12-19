@@ -64,7 +64,7 @@ class Home extends GetView<HomeController> {
                 padding: EdgeInsets.only(left: 10),
                 margin: EdgeInsets.only(top: 10),
                 child: const Text(
-                  'LIST MEBEL',
+                  'LIST FURNITURE',
                   style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,

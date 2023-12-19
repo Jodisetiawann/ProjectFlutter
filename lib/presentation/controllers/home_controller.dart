@@ -14,18 +14,18 @@ class HomeController extends GetxController {
     super.onInit();
   }
 
-  void fetchPosts() async {
+  Future<void> fetchPosts() async {
     try {
       var response = await http.get(Uri.parse(_baseUrl));
       if (response.statusCode == 200) {
         var jsonData = jsonDecode(response.body);
-        bookData.value = jsonData['items'];
+        bookData.value = jsonData['record'];
         print('Data:: $bookData');
       } else {
         print('Request failed with status: ${response.statusCode}');
       }
     } catch (e) {
       print('An error occurred: $e');
-    } finally {}
+    }
   }
 }

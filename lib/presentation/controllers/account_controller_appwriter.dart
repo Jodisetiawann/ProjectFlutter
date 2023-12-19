@@ -46,7 +46,7 @@ class AccountController extends ClientController {
         password: password,
       );
       print("AccountController:: createEmailSession $result");
-      Get.snackbar('Success', 'Login successfulllllllllllllllll',
+      Get.snackbar('Success', 'Login successful',
           backgroundColor: Colors.green);
       Get.off(DashboardPage());
     } catch (error) {

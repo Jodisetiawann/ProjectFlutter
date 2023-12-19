@@ -10,7 +10,7 @@ class Book extends GetView<DashboardController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Daftar Mebel'),
+        title: Text('Furniture List'),
       ),
       body: BookList(controller.bookInfos, key: UniqueKey()),
     );

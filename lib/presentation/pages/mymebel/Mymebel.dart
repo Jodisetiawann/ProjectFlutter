@@ -19,7 +19,7 @@ class Mybook extends GetView<DashboardController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Create Buku'),
+        title: const Text('Create Furniture'),
         backgroundColor: Colors.white,
       ),
       body: SingleChildScrollView(
@@ -86,7 +86,7 @@ class Mybook extends GetView<DashboardController> {
                     ScaffoldMessenger.of(context).showSnackBar(
                       const SnackBar(
                           content:
-                              Text('Buku berhasil diupload ke dalam daftar')),
+                              Text('Furniture berhasil diupload ke dalam daftar')),
                     );
                   } else {
                     ScaffoldMessenger.of(context).showSnackBar(

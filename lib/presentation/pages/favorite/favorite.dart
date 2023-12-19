@@ -15,7 +15,7 @@ class Favorite extends GetView<DashboardController> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Daftar Buku'),
+          title: const Text('Furniture List'),
           backgroundColor: Colors.white,
         ),
         body: Container(
